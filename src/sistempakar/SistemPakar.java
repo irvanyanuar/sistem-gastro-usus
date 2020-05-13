@@ -16,8 +16,6 @@ public class SistemPakar {
     public float infeksi[] = new float[6];
     public String infeksiString[] = new String[6];
     
-    
-    
     public SistemPakar() {
     }
 

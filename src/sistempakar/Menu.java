@@ -303,6 +303,12 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel1.setText("Treshold");
 
+        jTextField1.setText("0");
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
         jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 jTextField1KeyTyped(evt);
@@ -404,83 +410,101 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
-        sistemPakar.gejala[1]=true;   
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
-        sistemPakar.gejala[2]=true;        // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox2ActionPerformed
 
     private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
-        sistemPakar.gejala[3]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox3ActionPerformed
 
     private void jCheckBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox4ActionPerformed
-        sistemPakar.gejala[4]=true;         // TODO add your handling code here:
+      // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox4ActionPerformed
 
     private void jCheckBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox5ActionPerformed
-        sistemPakar.gejala[5]=true;         // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox5ActionPerformed
 
     private void jCheckBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox6ActionPerformed
-        sistemPakar.gejala[6]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox6ActionPerformed
 
     private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox7ActionPerformed
-        sistemPakar.gejala[7]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox7ActionPerformed
 
     private void jCheckBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox8ActionPerformed
-        sistemPakar.gejala[8]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox8ActionPerformed
 
     private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox9ActionPerformed
-        sistemPakar.gejala[9]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox9ActionPerformed
 
     private void jCheckBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox10ActionPerformed
-        sistemPakar.gejala[10]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox10ActionPerformed
 
     private void jCheckBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox11ActionPerformed
-        sistemPakar.gejala[11]=true;         // TODO add your handling code here:
+      // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox11ActionPerformed
 
     private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
-        sistemPakar.gejala[12]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox12ActionPerformed
 
     private void jCheckBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox13ActionPerformed
-        sistemPakar.gejala[13]=true;         // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox13ActionPerformed
 
     private void jCheckBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox14ActionPerformed
-        sistemPakar.gejala[14]=true;         // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox14ActionPerformed
 
     private void jCheckBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox15ActionPerformed
-        sistemPakar.gejala[15]=true;         // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox15ActionPerformed
 
     private void jCheckBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox16ActionPerformed
-        sistemPakar.gejala[16]=true;         // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox16ActionPerformed
 
     private void jCheckBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox17ActionPerformed
-        sistemPakar.gejala[17]=true;         // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox17ActionPerformed
 
     private void jCheckBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox18ActionPerformed
-        sistemPakar.gejala[18]=true;         // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox18ActionPerformed
 
     private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
-        sistemPakar.gejala[19]=true;         // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox19ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        sistemPakar.gejala[1] = jCheckBox1.isSelected();
+        sistemPakar.gejala[2] = jCheckBox2.isSelected();
+        sistemPakar.gejala[3] = jCheckBox3.isSelected();
+        sistemPakar.gejala[4] = jCheckBox4.isSelected();
+        sistemPakar.gejala[5] = jCheckBox5.isSelected();
+        sistemPakar.gejala[6] = jCheckBox6.isSelected();
+        sistemPakar.gejala[7] = jCheckBox7.isSelected();
+        sistemPakar.gejala[8] = jCheckBox8.isSelected();
+        sistemPakar.gejala[9] = jCheckBox9.isSelected();
+        sistemPakar.gejala[10] = jCheckBox10.isSelected();
+        sistemPakar.gejala[11] = jCheckBox11.isSelected();
+        sistemPakar.gejala[12] = jCheckBox12.isSelected();
+        sistemPakar.gejala[13] = jCheckBox13.isSelected();
+        sistemPakar.gejala[14] = jCheckBox14.isSelected();
+        sistemPakar.gejala[15] = jCheckBox15.isSelected();
+        sistemPakar.gejala[16] = jCheckBox16.isSelected();
+        sistemPakar.gejala[17] = jCheckBox17.isSelected();
+        sistemPakar.gejala[18] = jCheckBox18.isSelected();
+        sistemPakar.gejala[19] = jCheckBox19.isSelected();
         sistemPakar.threshold= Integer.parseInt(jTextField1.getText());
         sistemPakar.hitung();
         jTextArea1.setText(sistemPakar.getHasil());
@@ -500,6 +524,10 @@ public class Menu extends javax.swing.JFrame {
             evt.consume();
         }        // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1KeyTyped
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
