@@ -506,6 +506,7 @@ public class Menu extends javax.swing.JFrame {
         sistemPakar.gejala[18] = jCheckBox18.isSelected();
         sistemPakar.gejala[19] = jCheckBox19.isSelected();
         sistemPakar.threshold= Integer.parseInt(jTextField1.getText());
+        sistemPakar.inisialisasi();
         sistemPakar.hitung();
         jTextArea1.setText(sistemPakar.getHasil());
         jLabel4.setText(sistemPakar.diagnosa());
